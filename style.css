@@ -1,0 +1,247 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #e4f1d5; /* light green background */
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: rgb(0, 210, 197); /* 7UP green */
+  color: white;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+
+}
+
+.logo img{
+  width:80px ;
+  
+  
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+/* header nav ul li a:hover {
+  /* color: #ffd100; yellow highlight 
+} */
+
+/* Hero Section */
+.hero {
+  
+  background-image:url(assets/asset9.webp); /* darker green */
+  background-size: cover;
+  color: white;
+  /* text-align: center; */
+  padding-top: 15rem;
+  padding-left: 5rem;
+  height: 40rem;
+  
+}
+
+.hero h2 {
+  font-size: 3rem;
+  /* margin-bottom: px; */
+  font-family: Helvetica Neue 96 Black Italic;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero .cta-button {
+   background-color: transparent; /* yellow */
+  color: white;
+  border: 3px solid white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* transition: background-color 0.3s; */
+  
+}
+
+
+
+
+.hero3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url(assets/asset13.webp); /* darker green */
+  background-size: cover;
+  color: white;
+  /* text-align: center; */
+  /* padding-top: 15rem;
+  padding-left: 5rem; */
+  height: 40rem;
+  
+}
+
+.hero3 h2 {
+  font-size: 3rem;
+  /* margin-bottom: px; */
+  font-family: Helvetica Neue 96 Black Italic;
+}
+
+.hero3 p {
+  font-size: 1.2rem;
+  /* margin-bottom: 20px; */
+}
+
+.hero3 .cta-button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 150px;
+  width: 600px;
+  background-color: rgba(54, 124, 64, 0.617); 
+  color: white;
+  border: none;
+  /* padding: 80px 250px; */
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 90px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+}
+.hero2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url(assets/asset11.webp); /* darker green */
+  background-size: cover;
+  color: white;
+  
+  
+}
+
+
+
+.hero2 .cta-button {
+   background-color: #367c40;
+  color: white;
+  border: 3px solid white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+}
+.hero2 {
+  background-image:url(assets/asset11.webp); 
+  background-size: cover;
+  color: white;
+  
+  height: 40rem;
+  
+}
+
+.hero2 h2 {
+  font-size: 3rem;
+  
+  font-family: Helvetica Neue 96 Black Italic;
+}
+
+.hero2 p {
+  font-size: 1.2rem;
+}
+
+.hero2 .cta-button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  height: 150px;
+  width: 600px;
+
+  background-color: rgba(54, 124, 64, 0.617); 
+  color: white;
+  border: none;
+  /* padding: 80px 250px; */
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 90px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+.social img{
+  width: 30px;
+  
+}
+nav{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.navm{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  gap: 20px;
+}
+.navm a:hover{
+  text-decoration: underline /* darker yellow */
+}
+.social{
+  gap: 5px;
+}
+.cl{
+  height: 6.8rem;
+}
+.probutton{
+  
+  color: white;
+  font-size: 20px; 
+  background-color: transparent;
+  border-color: white;
+  border-width: 4px; 
+  height: 50px;
+  width: 15rem;
+  border-radius: 50px;
+}
+footer li{
+  list-style: none;
+}
+footer ul{
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
